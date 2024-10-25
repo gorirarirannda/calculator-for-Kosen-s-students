@@ -1,3 +1,10 @@
 #main_title{
-    
+    text-align: center;
+    display: block;
+}
+#list_formulas{
+    border: solid black 1px;
+    text-align: left;
+    width:fit-content;
+    margin: auto;
 }
