@@ -7,22 +7,22 @@
     </head>
     <body>
         <script>
-        //公式の呼び出し
-        var number = 1
-        var useformula=formulas[int(number)-1];
-        document.getElementById("use_formula").textContent = `使用する公式:${useformula}`;
+            //公式の呼び出し
+            var number = 1
+            var useformula=str(formulas[int(number)-1]);
+            document.getElementById("use_formula").textContent = `使用する公式:${str(useformula)}`;
         </script>
+        <script type="text/javascript" src="../calculator-for-Kosen-s-students/js/script.js"></script>
         <h1 id="main_title">数学/科学公式電卓</h1>
         <ol id="list_formulas">
             <li>二次方程式の解の公式x=(-b+-(-4ac)^1/2)/(2a)</li>
             <li>モル質量の計算</li>
         </ol>
-        <button type="button" id="formula_num_btn">公式を設定</button>
         <p id="use_formula"></p>
+        <button type="button" id="formula_num_btn">公式を設定</button>
         <div id="culclate">
             <button type="button">aの値を変更する</button>
 
         </div>
-        <script type="text/javascript" src="../calculator-for-Kosen-s-students/js/script.js"></script>
     </body>
 </html>
