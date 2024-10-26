@@ -6,13 +6,6 @@
         <link rel="stylesheet" href="../calculator-for-Kosen-s-students/css/style.css">
     </head>
     <body>
-        <script>
-            //公式の呼び出し
-            var number = 1
-            var useformula=str(formulas[int(number)-1]);
-            document.getElementById("use_formula").textContent = `使用する公式:${str(useformula)}`;
-        </script>
-        <script type="text/javascript" src="../calculator-for-Kosen-s-students/js/script.js"></script>
         <h1 id="main_title">数学/科学公式電卓</h1>
         <ol id="list_formulas">
             <li>二次方程式の解の公式<math><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo> <mi>b</mi><mo>±</mo><msqrt><msup> <mi>b</mi> <mn>2</mn> </msup><mo>-</mo><mn>4</mn> <mo>⁢</mo> <mi>a</mi> <mo>⁢</mo> <mi>c</mi></msqrt></mrow><mrow><mn>2</mn> <mo> </mo><mi>a</mi></mrow></mfrac></math></li>
@@ -25,4 +18,11 @@
 
         </div>
     </body>
+    <script type="text/javascript" src="../calculator-for-Kosen-s-students/js/script.js"></script>
+    <script type="text/javascript">
+        //公式の呼び出し
+        var number = 1
+        var useformula=str(formulas[int(number)-1]);
+        document.getElementById("use_formula").textContent = `使用する公式:${str(useformula)}`;
+    </script>
 </html>
