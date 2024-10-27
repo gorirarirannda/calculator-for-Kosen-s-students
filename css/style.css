@@ -3,6 +3,7 @@
     display: block;
 }
 #list_formulas{
+    font-size: large;
     border: solid black 1px;
     text-align: left;
     width:fit-content;
